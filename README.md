@@ -1,3 +1,7 @@
+# fix angular start
+   "app1:start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve --port 4201 -c app1-dev",
+    "app2:start": "set NODE_OPTIONS=--openssl-legacy-provider && ng serve --port 4202 -c app2-dev",
+    
 # Single Sign-on (SSO) with IdentityServer and Angular
 This example demonstrates how a fake company - named *MyCompany* - can implement SSO to centralize login for internal applications.
 
